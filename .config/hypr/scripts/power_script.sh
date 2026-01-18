@@ -7,8 +7,8 @@ options="Lock\nSuspend\nReboot\nShutdown"
 choice=$(echo -e "$options" | rofi -dmenu -p "Power:")
 
 case "$choice" in
-    "Lock") hyprlock ;;
-    "Suspend") systemctl suspend ;;
-    "Reboot") systemctl reboot ;;
-    "Shutdown") systemctl poweroff ;;
+    "󰌾 Lock") hyprlock ;;
+    "󰤄 Suspend") systemctl suspend ;;
+    " Reboot") systemctl reboot ;;
+    "󰐥 Shutdown") systemctl poweroff ;;
 esac
