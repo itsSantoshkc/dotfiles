@@ -1,0 +1,18 @@
+
+* {
+    bg0:    @surface-dim;
+    bg1:    @surface-bright;
+    bg2:    @on-primary;
+    bg3:    @secondary;
+    fg0:    @secondary;
+    fg1:    #005eff;
+    fg2:    @tertiary;
+    fg3:    @secondary;
+}
+
+@import "template/rounded-template.rasi"
+@import "material-colors.rasi"
+
+element selected {
+    text-color: @bg1;
+}
